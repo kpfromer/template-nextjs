@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // Similiar structure to:
 // https://github.com/JS-DevTools/rehype-inline-svg/blob/master/src/inline-svg.ts
 import imageSize from 'image-size';
