@@ -14,7 +14,6 @@
 - [storybooks](https://storybook.js.org/) for testing/viewing UI components in isolation
 - [chakra ui](https://chakra-ui.com/) for components, styling, and theming
 - TODO: mdx remote
-- TODO: images
 
 ## Scripts
 
@@ -24,6 +23,20 @@
 - `npm start` starts the built next.js application
 - `npm run lint` runs `eslint`
 - `npm run format` runs `prettier`
+
+## Structure
+
+- `components` - components used for creating pages and stories for storybooks
+- `lib` - the files associated with sourcing and consuming data from locations (like MDX)
+- `hooks` - react hooks for SWR or other minor things
+- `tests` - for jest integration/unit tests (since **tests can not be in the pages** folder since
+  next.js will try to create a page for them)
+- `content` - the data for creating pages, like a MDX blog posts
+- `utils` - misc one of files like theme or test helpers
+
+## Other Tools
+
+- [favycon](https://favycon.app/) for generating favions
 
 # Details
 
