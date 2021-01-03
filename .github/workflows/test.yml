@@ -54,4 +54,4 @@ jobs:
 
       # From: https://www.cypress.io/blog/2019/11/20/drastically-simplify-your-testing-with-cypress-github-action/
       - name: E2E Tests
-        run: test:e2e
+        run: yarn test:e2e
