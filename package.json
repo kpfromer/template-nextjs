@@ -13,7 +13,7 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "format": "prettier --write .",
-    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}' --fix",
     "lint-staged": "lint-staged",
     "storybook": "cross-env BROWSER=none start-storybook -p 6006",
     "build-storybook": "build-storybook"
