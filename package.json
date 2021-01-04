@@ -54,7 +54,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "run-s lint-staged test",
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn test",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
