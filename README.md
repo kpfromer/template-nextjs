@@ -3,18 +3,19 @@
 ## Includes
 
 - [eslint](https://github.com/eslint/eslint)
-- [jest](https://github.com/facebook/jest) for testing
-<!-- - A GitHub workflow file for continuous testing and building. -->
+- [jest](https://github.com/facebook/jest) for unit/integration testing
+  - Uses [`next-page-tester`](https://github.com/toomuchdesign/next-page-tester#readme) - read more
+  about the project [here](https://dev.to/toomuchdesign/dom-testing-next-js-applications-46ke)
+  <!-- - A GitHub workflow file for continuous testing and building. -->
 - [prettier](https://github.com/prettier/prettier), [husky](https://github.com/typicode/husky),
   [lint-staged](https://github.com/okonet/lint-staged) for automatic formatting and linting
 - [cypress](https://www.cypress.io/) for end-to-end tests
 
 - TODO: mdx remote
 - TODO: images
+- TODO: swr
 - TODO: chakra ui
 - TODO: storybooks
-- TODO: jest for testing (`next-page-tester` read more
-  [here](https://dev.to/toomuchdesign/dom-testing-next-js-applications-46ke))
 
 ## Scripts
 
