@@ -1,3 +1,32 @@
+# template-nextjs
+
+## Includes
+
+- [eslint](https://github.com/eslint/eslint)
+- [jest](https://github.com/facebook/jest) for testing
+<!-- - A GitHub workflow file for continuous testing and building. -->
+- [prettier](https://github.com/prettier/prettier), [husky](https://github.com/typicode/husky),
+  [lint-staged](https://github.com/okonet/lint-staged) for automatic formatting and linting
+- [cypress](https://www.cypress.io/) for end-to-end tests
+
+- TODO: mdx remote
+- TODO: images
+- TODO: chakra ui
+- TODO: storybooks
+- TODO: jest for testing (`next-page-tester` read more
+  [here](https://dev.to/toomuchdesign/dom-testing-next-js-applications-46ke))
+
+## Scripts
+
+- `npm run dev` runs next.js in development mode
+- `npm run test` runs all tests (jest for unit/integration and cypress for e2e)
+- `npm run build` builds next.js application
+- `npm start` starts the built next.js application
+- `npm run lint` runs `eslint`
+- `npm run format` runs `prettier`
+
+# Details
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with
 [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
