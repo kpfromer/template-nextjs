@@ -12,9 +12,9 @@
 - [cypress](https://www.cypress.io/) for end-to-end tests
 - [swr](https://github.com/vercel/swr) for remote data fetching
 - [storybooks](https://storybook.js.org/) for testing/viewing UI components in isolation
+- [chakra ui](https://chakra-ui.com/) for components, styling, and theming
 - TODO: mdx remote
 - TODO: images
-- TODO: chakra ui
 
 ## Scripts
 
