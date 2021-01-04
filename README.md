@@ -10,10 +10,10 @@
 - [prettier](https://github.com/prettier/prettier), [husky](https://github.com/typicode/husky),
   [lint-staged](https://github.com/okonet/lint-staged) for automatic formatting and linting
 - [cypress](https://www.cypress.io/) for end-to-end tests
+- [swr](https://github.com/vercel/swr) for remote data fetching
 
 - TODO: mdx remote
 - TODO: images
-- TODO: swr
 - TODO: chakra ui
 - TODO: storybooks
 
