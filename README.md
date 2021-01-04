@@ -11,11 +11,10 @@
   [lint-staged](https://github.com/okonet/lint-staged) for automatic formatting and linting
 - [cypress](https://www.cypress.io/) for end-to-end tests
 - [swr](https://github.com/vercel/swr) for remote data fetching
-
+- [storybooks](https://storybook.js.org/) for testing/viewing UI components in isolation
 - TODO: mdx remote
 - TODO: images
 - TODO: chakra ui
-- TODO: storybooks
 
 ## Scripts
 
